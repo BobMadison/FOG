@@ -2,9 +2,7 @@
   background-image: url(images/Logo1150.PNG);
 }
 
-#bob,
-#rod,
-#ross {
+#bob, #rod, #ross {
   background-color: white;
   width: 30%;
   padding: 1rem;
