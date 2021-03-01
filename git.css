@@ -1,3 +1,30 @@
 #myBody {
   background-image: url(images/Logo1150.PNG);
 }
+#bob {
+  background-color: white;
+  width: 30%;
+}
+
+#rod {
+  background-color: white;
+  width: 30%;
+}
+
+#ross {
+  background-color: white;
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#ross .img-top{
+  display: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+#ross:hover .img-top{
+  display: inline;
+}
