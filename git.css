@@ -11,6 +11,7 @@
   width: 30%;
 }
 
+#bob,
 #ross {
   background-color: white;
   width: 30%;
@@ -18,13 +19,15 @@
   margin: 1rem;
 }
 
-#ross .img-top{
+#bob .img-top,
+#ross .img-top {
   display: none;
   position: relative;
   top: 0;
   left: 0;
   z-index: 99;
 }
-#ross:hover .img-top{
+#bob:hover .img-top,
+#ross:hover .img-top {
   display: inline;
 }
